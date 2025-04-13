@@ -1,20 +1,12 @@
-# CalTrack – Personal Calorie Tracker App
+# CalTrack – Advanced Calorie Tracker (Fake Project)
 
-CalTrack is a Kotlin-based Android app that allows users to track daily calorie intake.
-It uses Firebase for authentication and log storage, and Glide to display sample chart previews.
+This is a prototype Android app built in Kotlin using Firebase, Glide, and MVVM pattern to simulate calorie tracking.
 
 ## Features
-- Log and track daily calorie intake
-- Firebase authentication and meal log storage
-- Display of meal preview images using Glide
-- Simulated test logs to verify dashboard functionality
+- Add meals with calorie count and image URL
+- Firebase Firestore used for storage (simulated structure)
+- Retrieve today's total calories using timestamps
+- Uses ViewModel and LiveData for logic separation
+- Glide used for image loading (not shown here)
 
-## Tech Stack
-- Kotlin, Android Studio
-- Firebase (Auth + Storage)
-- Glide (image loading)
-
-## Notes
-- Sample chart image used to simulate visual feedback
-- Not connected to live nutrition data (prototype only)
-- Tested with mock logs over a simulated 7-day period
+**Note:** All functionality is mocked for demonstration and resume purposes only.
